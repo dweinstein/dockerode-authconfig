@@ -9,6 +9,10 @@ var orig = {
     'already.ready': {
       username: '@ok',
       password: 'okyouwin'
+    },
+    'other': {
+      pass: 'thru',
+      other: 'keys'
     }
   }
 };
@@ -22,6 +26,10 @@ assert.deepEqual(res, {
     'already.ready': {
       username: '@ok',
       password: 'okyouwin'
+    },
+    'other': {
+      pass: 'thru',
+      other: 'keys'
     }
   }
 });

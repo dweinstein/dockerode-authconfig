@@ -1,0 +1,26 @@
+{
+  "name": "dockerode-authconfig",
+  "version": "1.0.0",
+  "description": "normalize to `authConfig` format for docker daemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dweinstein/dockerode-authconfig.git"
+  },
+  "keywords": [
+    "dockerode",
+    "auth",
+    "config",
+    "normalize",
+    "authconfig"
+  ],
+  "author": "dweinstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dweinstein/dockerode-authconfig/issues"
+  },
+  "homepage": "https://github.com/dweinstein/dockerode-authconfig#readme"
+}

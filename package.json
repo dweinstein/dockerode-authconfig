@@ -1,6 +1,6 @@
 {
   "name": "dockerode-authconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "normalize to `authConfig` format for docker daemon",
   "main": "index.js",
   "scripts": {

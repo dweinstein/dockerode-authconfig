@@ -21,11 +21,13 @@ assert.deepEqual(res, {
   auths: {
     'foo.bar.baz': {
       username: '@foo',
-      password: 'superduperdo'
+      password: 'superduperdo',
+      serveraddress: 'foo.bar.baz'
     },
     'already.ready': {
       username: '@ok',
-      password: 'okyouwin'
+      password: 'okyouwin',
+      serveraddress: 'already.ready'
     },
     'other': {
       pass: 'thru',

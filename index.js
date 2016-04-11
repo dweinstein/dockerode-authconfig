@@ -7,13 +7,16 @@ function normalize (obj) {
       var user_pass = auth.split(':');
       accum[entry] = {
         username: user_pass[0],
-        password: user_pass[1]
+        password: user_pass[1],
+        serveraddress: entry
       };
-    }
-    else if (cur.username && cur.password) {
-      accum[entry] = cur;
-    }
-    else {
+    } else if (cur.username && cur.password) {
+      accum[entry] = {
+        username: cur.username,
+        password: cur.password,
+        serveraddress: entry
+      };
+    } else {
       accum[entry] = cur;
     }
     return accum;
